@@ -73,12 +73,18 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Digitization Knowledge',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'DK Logo',
+        src: 'img/dk-logo-solid.svg',
       },
       items: [
+        {
+          type: 'docSidebar',
+          sidebarId: 'documentationSidebar',
+          position: 'left',
+          label: 'Documentation',
+        },
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
